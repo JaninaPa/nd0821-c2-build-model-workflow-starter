@@ -83,14 +83,14 @@ if __name__ == "__main__":
     parser.add_argument(
         "--min_price", 
         type=float,
-        help='Minimum price for evaluation',
+        help='Minimum price to include',
         required=True
     )
 
     parser.add_argument(
         "--max_price", 
         type=float,
-        help='Maximum price for evaluation',
+        help='Maximum price to include',
         required=True
     )
 
