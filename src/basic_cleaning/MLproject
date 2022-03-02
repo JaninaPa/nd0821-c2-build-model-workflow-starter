@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: 'File name of data to be cleaned'
+        description: File name of data to be cleaned
         type: string
 
       output_artifact:
-        description: 'File name of cleaned data'
+        description: File name of cleaned data
         type: string
 
       output_type:
-        description: 'Type of output file'
+        description: Type of output file
         type: string
 
       output_description:
-        description: 'Description of output file'
+        description: Description of output file
         type: string
 
       min_price:
-        description: 'Minimum price to include'
+        description: Minimum price to include
         type: string
 
       max_price:
-        description: 'Maximum price to include'
+        description: Maximum price to include
         type: string
 
 
